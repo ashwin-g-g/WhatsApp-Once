@@ -1,5 +1,7 @@
+
 #main-block{
     background-color: #4FCE5D;
+    margin-bottom: 0;
 }
 
 .text{
@@ -9,4 +11,15 @@
 .button{
     background-color: #435A64;
     color: #FFFFFF;
+}
+
+.footer{
+    background-color: #435A64;
+    color: #FFFFFF;
+    height: auto;
+    text-align: center;
+}
+
+.footer a{
+    color: yellow;
 }
