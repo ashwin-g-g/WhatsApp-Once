@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>WhatsApp Once</title>
+        <script>
+            function textNumber() {
+            url = 'https://api.whatsapp.com/send?phone=' + 91 + document.getElementById("number").value;
+            window.open(url, '_self');
+            }
+        </script>
+    </head>
+    <body>
+        <div class="jumbotron" id="main-block">
+            <h1 class="display-4 text">Message anyone on WhatsApp without saving their number in your phone!</h1>
+            <p class="lead text"> <b>Sometimes you may get into a situation where you may have to text someone on WhatsApp but you don't want
+                to save their number as a contact in your phone. We understand!</b></p>
+            <hr class="my-4">
+            <p class="text">Enter the 10 digit mobile number of the person to whom you wish to send a message and click on the 'Message' button.
+                You'll be redirected to WhatsApp's website and click on the message button again.
+            </p>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">+91</span>
+                </div>
+                <input type="number" id="number" class="form-control" placeholder="10 digit mobile number" aria-label="Mobile number" aria-describedby="basic-addon1">
+            </div>
+            <button type="button" class="btn btn-outline-primary button" onclick="textNumber()"> Message </button>
+        </div>
+    </body>
+</html>
