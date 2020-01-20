@@ -1,7 +1,8 @@
 
 #main-block{
-    background-color: #4FCE5D;
+    background-color: #435A64;
     margin-bottom: 0;
+    border-radius: 0;
 }
 
 .text{
@@ -9,7 +10,7 @@
 }
 
 .button{
-    background-color: #435A64;
+    background-color: #4FCE5D;
     color: #FFFFFF;
 }
 
@@ -18,8 +19,12 @@
     color: #FFFFFF;
     height: auto;
     text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .footer a{
     color: yellow;
 }
+
+/* #4FCE5D */
